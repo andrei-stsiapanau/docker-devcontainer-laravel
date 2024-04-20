@@ -1,0 +1,9 @@
+services:
+  devcontainer:
+    build:
+      args:
+        SAIL_GID: ${SAIL_GID:-1000}
+        SAIL_UID: ${SAIL_UID:-1000}
+        TZ: ${TZ:-UTC}
+      context: .
+    image: andrei-stepanov/devcontainer-laravel:latest

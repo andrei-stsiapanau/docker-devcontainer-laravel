@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+XDEBUG_MODE=debug XDEBUG_TRIGGER=on php "$@"
